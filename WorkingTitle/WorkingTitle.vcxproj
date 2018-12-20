@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="task1.h" />
+    <ClInclude Include="task4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -162,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="task1.cpp" />
+    <ClCompile Include="task4.cpp" />
     <ClCompile Include="WorkingTitle.cpp" />
   </ItemGroup>
   <ItemGroup>

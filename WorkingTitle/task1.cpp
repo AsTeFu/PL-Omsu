@@ -14,9 +14,9 @@ int Task1() {
 	}
 
 	GetMatrixFromFile(matrix);
-	cout << "Исходный массив:\n";
+	cout << "Original array:\n";
 	PrintMatrix(matrix, rows, columns);
-	cout << "\nОтсортированный массив:\n";
+	cout << "\nSorted array:\n";
 	BubbleSortMatrix(matrix, rows, columns);
 	PrintMatrix(matrix, rows, columns);
 
@@ -50,7 +50,7 @@ int GetMatrixFromFile(char **matrix) {
 int SaveMatrix(char **matrix, int rows, int columns) {
 	ofstream file("task1_matrixSort.txt", ios_base::trunc);
 
-	file << "Отсортированный массив:\n";
+	file << "Sorted array:\n";
 
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < columns; j++) {
