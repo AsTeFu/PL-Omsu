@@ -21,6 +21,10 @@ int Task1() {
 	PrintMatrix(matrix, rows, columns);
 
 	SaveMatrix(matrix, rows, columns);
+	
+	for (int i = 0; i < rows; i++) {
+		delete[] matrix[i];
+	}
 
 	return 0;
 }
