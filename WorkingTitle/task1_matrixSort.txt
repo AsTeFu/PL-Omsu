@@ -1,0 +1,8 @@
+Отсортированный массив:
+F G H S T U 
+H J R T V Y 
+A J L O S X 
+A B E F Q R 
+A B C D E F 
+A B C D E F 
+A E F S T U 
